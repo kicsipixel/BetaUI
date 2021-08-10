@@ -1,7 +1,7 @@
 # BetaUI Swift Package
 ## Creating fast prototypes in SwiftUI, focusing on app logic instead of UI
 
-![](README.png)
+![](screenshot.png)
 
 ### Components
 
