@@ -1,11 +1,15 @@
 # BetaUI Swift Package
 ## Creating fast prototypes in SwiftUI, focusing on app logic instead of UI
 
+![](ReadMe.png)
+
 ### Components
 
 #### - Border
 - DefaultTextFieldBorder ```BUIInputTextFiledBorder()```
 #### - Button
+- ```BUIDefaultButtonStyle```
+- ```BUIInverseButtonStyle```
 #### - Input
 - TextField
  

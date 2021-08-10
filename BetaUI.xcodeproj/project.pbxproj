@@ -18,6 +18,7 @@
 		5799F70126C2BD2C0039F154 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799F6FC26C2BD2C0039F154 /* ViewExtension.swift */; };
 		5799F70426C2BEBD0039F154 /* BUITextFieldBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799F70326C2BEBD0039F154 /* BUITextFieldBorder.swift */; };
 		5799F70626C2C9470039F154 /* BUISecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799F70526C2C9470039F154 /* BUISecureTextField.swift */; };
+		5799F70826C3063E0039F154 /* BUIButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799F70726C3063E0039F154 /* BUIButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5799F6FC26C2BD2C0039F154 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		5799F70326C2BEBD0039F154 /* BUITextFieldBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUITextFieldBorder.swift; sourceTree = "<group>"; };
 		5799F70526C2C9470039F154 /* BUISecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUISecureTextField.swift; sourceTree = "<group>"; };
+		5799F70726C3063E0039F154 /* BUIButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUIButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		5799F6F526C2BD2C0039F154 /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				5799F70726C3063E0039F154 /* BUIButtonStyle.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5799F70826C3063E0039F154 /* BUIButtonStyle.swift in Sources */,
 				5799F6FF26C2BD2C0039F154 /* BUITextstyle.swift in Sources */,
 				5799F70626C2C9470039F154 /* BUISecureTextField.swift in Sources */,
 				5799F6FE26C2BD2C0039F154 /* BUIInputTextField.swift in Sources */,

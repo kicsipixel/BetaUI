@@ -9,6 +9,9 @@ import SwiftUI
 
 // Colors and other constants are collected here, so can be modified easily
 
-let bUIOrange = Color(hexString: "EF7F4A")
-let bUICream = Color(hexString: "F7B7A6")
-let bUILightCream = Color(hexString: "FCE5DB")
+//MARK: Main colors
+let kMainColor1 = Color(hexString: "EF7F4A")
+let kMainColor2 = Color(hexString: "F7B7A6")
+let kMainColor3 = Color(hexString: "FCE5DB")
+let kMainColor4 = Color(hexString: "FFFFFF")
+

@@ -18,21 +18,55 @@ struct ContentView: View {
             HStack {
                 VStack(alignment: .trailing) {
                     Text("Showcase")
-                        .modifier(BUIHeaderText())
+                        .modifier(BUIHeaderTextStyle())
                     Text(".modifier(HeaderText())")
-                        .modifier(BUIFootnoteText())
+                        .modifier(BUIFootnoteTextStyle())
                 }
                 .padding()
                 Spacer()
             }
-            BUIInputTextField(text: $text, placeholder: "Textfiled without image", keyboardType: .default, sfSymbol: nil)
-                .padding()
             
-            BUIInputTextField(text: $textWithIcon, placeholder: "Textfiled with image", keyboardType: .default, sfSymbol: "envelope")
-                .padding()
+            VStack(alignment: .trailing) {
+                BUIInputTextField(text: $text, placeholder: "Textfiled without image", keyboardType: .default, sfSymbol: nil)
+                Text("BUIInputTextField()")
+                    .modifier(BUIFootnoteTextStyle())
+            }
+            .padding()
             
-            BUISecureTextField(password: $password, placeholder: "Secure textfield with icon", keyboardType: .default, sfSymbol: "lock")
-                .padding()
+            VStack(alignment: .trailing) {
+                BUIInputTextField(text: $textWithIcon, placeholder: "Textfiled with image", keyboardType: .default, sfSymbol: "envelope")
+                Text("BUIInputTextField() with SFSymbol")
+                    .modifier(BUIFootnoteTextStyle())
+            }
+            .padding()
+            
+            VStack(alignment: .trailing) {
+                BUISecureTextField(password: $password, placeholder: "Secure textfield with icon", keyboardType: .default, sfSymbol: "lock")
+                Text("BUISecureTextField() with SFSymbol")
+                    .modifier(BUIFootnoteTextStyle())
+            }
+            .padding()
+            
+            VStack(alignment: .trailing) {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("BetaUI Button 1")
+                })
+                .modifier(BUIDefaultButtonStyle())
+                Text("BUIDefaultButtonStyle()")
+                    .modifier(BUIFootnoteTextStyle())
+            }
+            .padding()
+            
+            
+            VStack(alignment: .trailing) {
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("BetaUI Button 2")
+                })
+                .modifier(BUIInverseButtonStyle())
+                Text("BUIInverseButtonStyle()")
+                    .modifier(BUIFootnoteTextStyle())
+            }
+            .padding()
             
             Spacer()
         }

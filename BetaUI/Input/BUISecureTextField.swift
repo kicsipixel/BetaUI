@@ -19,6 +19,7 @@ struct BUISecureTextField: View {
     
     var body: some View {
         SecureField(placeholder, text: $password)
+            .foregroundColor(.bUISecureTextFieldColor)
             .frame(maxWidth: .infinity, minHeight: 44)
             .padding(.leading, textLeading)
             .keyboardType(keyboardType)

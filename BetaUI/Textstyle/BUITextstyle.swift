@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BUIHeaderText: ViewModifier {
+struct BUIHeaderTextStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.largeTitle.bold())
@@ -15,7 +15,7 @@ struct BUIHeaderText: ViewModifier {
     }
 }
 
-struct BUIFootnoteText: ViewModifier {
+struct BUIFootnoteTextStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.footnote)

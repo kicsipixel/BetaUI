@@ -18,6 +18,7 @@ struct BUIInputTextField: View {
     
     var body: some View {
         TextField(placeholder, text: $text)
+            .foregroundColor(.bUIInputTextFieldColor)
             .frame(maxWidth: .infinity, minHeight: 44)
             .padding(.leading, sfSymbol == nil ? textLeading / 2 : textLeading)
             .keyboardType(keyboardType)
