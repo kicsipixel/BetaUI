@@ -14,7 +14,7 @@ extension Color {
     static let bUIFootnoteTextColor = bUICream
     
     //MARK: Border color
-    static let bUIBorderColor = bUILightCream
+    static let bUIBorderColor = bUIOrange
     
     // Converting hex string to Color
     // Usage: Color(hexString: "your_hex_string")
