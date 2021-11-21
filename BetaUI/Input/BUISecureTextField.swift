@@ -29,7 +29,8 @@ struct BUISecureTextField: View {
                 ZStack(alignment: .leading) {
                     if let systemImage = sfSymbol {
                         Image(systemName: systemImage)
-                            .opacity(0.3)
+                            .foregroundColor(checkIfTextFieldIsEmpty(text: password) ? Color.gray : .bUIInputTextFieldColor)
+                            .opacity(checkIfTextFieldIsEmpty(text: password) ? 0.3 : 1)
                             .padding(.horizontal, 5)
                     }
                     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5702C246274A85450026AED2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5702C245274A85450026AED2 /* Helper.swift */; };
 		5799F6E726C2BAF70039F154 /* BetaUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799F6E626C2BAF70039F154 /* BetaUIApp.swift */; };
 		5799F6E926C2BAF70039F154 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799F6E826C2BAF70039F154 /* ContentView.swift */; };
 		5799F6EB26C2BAF90039F154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5799F6EA26C2BAF90039F154 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5702C245274A85450026AED2 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		5799F6E326C2BAF70039F154 /* BetaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5799F6E626C2BAF70039F154 /* BetaUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaUIApp.swift; sourceTree = "<group>"; };
 		5799F6E826C2BAF70039F154 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				5799F6F726C2BD2C0039F154 /* Input */,
 				5799F6F926C2BD2C0039F154 /* Textstyle */,
 				5799F6FC26C2BD2C0039F154 /* ViewExtension.swift */,
+				5702C245274A85450026AED2 /* Helper.swift */,
 				5799F6E626C2BAF70039F154 /* BetaUIApp.swift */,
 				5799F6E826C2BAF70039F154 /* ContentView.swift */,
 				5799F6EA26C2BAF90039F154 /* Assets.xcassets */,
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5702C246274A85450026AED2 /* Helper.swift in Sources */,
 				5799F70826C3063E0039F154 /* BUIButtonStyle.swift in Sources */,
 				5799F6FF26C2BD2C0039F154 /* BUITextstyle.swift in Sources */,
 				5799F70626C2C9470039F154 /* BUISecureTextField.swift in Sources */,

@@ -34,7 +34,7 @@ struct ContentView: View {
             .padding()
             
             VStack(alignment: .trailing) {
-                BUIInputTextField(text: $textWithIcon, placeholder: "Textfiled with image", keyboardType: .default, sfSymbol: "envelope")
+                BUIInputTextField(text: $textWithIcon, placeholder: "Textfiled with image", keyboardType: .emailAddress, sfSymbol: "envelope")
                 Text("BUIInputTextField() with SFSymbol")
                     .modifier(BUIFootnoteTextStyle())
             }

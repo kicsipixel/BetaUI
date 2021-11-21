@@ -21,12 +21,14 @@ struct BUIInputTextField: View {
             .foregroundColor(.bUIInputTextFieldColor)
             .frame(maxWidth: .infinity, minHeight: 44)
             .padding(.leading, sfSymbol == nil ? textLeading / 2 : textLeading)
+            .autocapitalization(keyboardType == .default ? .words : .none)
             .keyboardType(keyboardType)
             .background(
                 ZStack(alignment: .leading) {
                     if let systemImage = sfSymbol {
                         Image(systemName: systemImage)
-                            .opacity(0.3)
+                            .foregroundColor(checkIfTextFieldIsEmpty(text: text) ? Color.gray : .bUIInputTextFieldColor)
+                            .opacity(checkIfTextFieldIsEmpty(text: text) ? 0.3 : 1)
                             .padding(.horizontal, 5)
                     }
                     
